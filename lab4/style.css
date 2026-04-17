@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background: gray;
+}
+
+main {
+    height: 500px;
+    display: flex;
+}
+
+footer {
+    height: 100px;
+    background: black;
+    color: white;
+}
+
+#leftPanel, #content, #rightPanel {
+    width: 33%;
+}
+
+/* loader */
+.loader {
+    border: 5px solid #ccc;
+    border-top: 5px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
